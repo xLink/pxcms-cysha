@@ -7,6 +7,7 @@
     <li><a href="{{ route('pxcms.user.login') }}">Login</a></li>
     <li><a href="{{ route('pxcms.user.register') }}">Register</a></li>
     @else
+    <li><img src="{{ Auth::user()->avatar }}" class="img-circle" style="height: 48px; width: 48px;" alt=""></li>
     <li><a href="{{ route('pxcms.user.logout') }}">{{ 'Logout ['.Auth::user()->screenname.']' }}</a></li>
     @endif
 </ul>

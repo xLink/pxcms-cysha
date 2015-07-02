@@ -5,12 +5,6 @@
 
 {!! Theme::partial('theme.header') !!}
 <div class="site-container">
-    <div class="col-md-12">
-        <div class="alert alert-info">
-            <p><strong>Information:</strong> This site is currently a WIP. More functionality will be added as it is developed! Check back often!</p>
-        </div>
-    </div>
-
     @yield('layout-content')
 </div>
 {!! Theme::partial('theme.footer') !!}

@@ -1,6 +1,6 @@
 <header>
     <div id="topbar" class="container">
-        <div class="logo">Cybershade Inc</div>
+        <div class="logo">Cysha Community</div>
     </div>
 
     <nav class="navbar navbar-dark" role="navigation">

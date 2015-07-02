@@ -8749,16 +8749,7 @@ section.page-header h1 {
 section.page-header p {
   font-size: 14px;
 }
-.devicons {
-  font-size: 22px !important;
-}
-body > header {
-  border-bottom: 1px solid #000;
-  background-color: #1e1e1e;
-  background-image: url('../images/pattern.png');
-  background-repeat: repeat;
-}
-body > header #topbar div.logo {
+div.logo {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -8768,6 +8759,12 @@ body > header #topbar div.logo {
   width: 320px;
   height: 70px;
   background: url('../images/logo.png') no-repeat 0 10px;
+}
+body > header {
+  border-bottom: 1px solid #000;
+  background-color: #1e1e1e;
+  background-image: url('../images/pattern.png');
+  background-repeat: repeat;
 }
 body > header .navbar {
   background-color: #5697C4;
@@ -8834,6 +8831,10 @@ body > footer {
   background-repeat: repeat;
   border-top: 1px solid #000000;
   min-height: 200px;
+  color: #ccc;
+}
+body > footer h4 {
+  color: #ccc;
 }
 
 /*# sourceMappingURL=app.css.map */
