@@ -1,4 +1,3 @@
-<div class="form">
 {!! Former::horizontal_open()->action(route('pxcms.user.login')) !!}
 
     {!! Former::text('email', 'Email')->required() !!}
@@ -23,4 +22,3 @@
         </div>
     </div>
 {!! Form::token() , Former::close() !!}
-</div>

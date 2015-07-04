@@ -8501,25 +8501,6 @@ a.alert .alert-warning strong:hover {
 a.alert .alert-danger strong:hover {
   color: #843534;
 }
-@media (min-width: 992px) {
-  .panel .panel-body {
-    display: block !important;
-  }
-}
-@media (max-width: 991px) {
-  .panel [data-panel="toggle"] {
-    display: block !important;
-  }
-  .panel [data-panel="toggle"] .panel-heading button.btn {
-    width: 5em;
-    margin-top: -6px;
-    margin-bottom: -10px;
-    margin-right: -11px;
-  }
-  .panel [data-panel="toggle"] .panel-body {
-    display: none;
-  }
-}
 .form-control {
   border-radius: 0;
 }
@@ -8821,6 +8802,7 @@ body > .site-container section {
   background-color: white;
   min-height: 700px;
   display: inline-block;
+  padding: 10px 0;
 }
 body > .site-container section .page-header {
   margin: 0 0 20px;
