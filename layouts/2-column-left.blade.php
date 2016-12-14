@@ -3,10 +3,6 @@
 @section('layout-content')
 
     <section class="two-column-left">
-        <div class="container">
-            {!! Theme::breadcrumb()->render() !!}
-        </div>
-
         <aside class="sidebar sidebar-left">
             {!! Theme::partial('theme.sidebar-left') !!}
         </aside>

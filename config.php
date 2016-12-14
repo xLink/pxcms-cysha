@@ -8,7 +8,7 @@ return [
 
         'before' => function ($theme) {
             // You can remove this line anytime.
-            $theme->setTitle(config('cms.core.app.site-name'));
+            $theme->setTitle(config('app.name'));
 
             // Breadcrumb template.
             $theme->breadcrumb()->setTemplate(
@@ -32,6 +32,6 @@ return [
 
         'beforeRenderTheme' => function ($theme) {
 
-        }
-    ]
+        },
+    ],
 ];
