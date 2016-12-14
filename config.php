@@ -31,7 +31,14 @@ return [
         },
 
         'beforeRenderTheme' => function ($theme) {
+            $navService = (new \Cms\Modules\Core\Services\NavigationService());
 
+<<<<<<< HEAD
+=======
+            // grab the navigations
+            $navService->boot();
+
+>>>>>>> bf0cfda908ab098a1ddc134f3ee43df95078dd4e
         },
     ],
 ];
